@@ -47,6 +47,8 @@
 برای مشاهده راهنمای برنامه و پاسخ به سوالات متداول، روی دکمه "راهنما و سوالات متداول" در پایین صفحه کلیک کنید.
 
 
+[![توییتر](https://img.shields.io/twitter/follow/Ham3ds_?style=social)](https://twitter.com/Ham3ds_)
+
 ---
 
 # Percent Calculator - Dar100
@@ -95,3 +97,6 @@ By clicking on the gear icon at the top of the page, you can access the settings
 
 To view the application's help and frequently asked questions, click the "Help and FAQ" button at the bottom of the page.
 
+
+
+[![توییتر](https://img.shields.io/twitter/follow/Ham3ds_?style=social)](https://twitter.com/Ham3ds_)
