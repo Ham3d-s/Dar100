@@ -1,0 +1,218 @@
+/* Custom Font Configuration */
+body {
+    font-family: 'Vazirmatn', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 0; /* Remove extra padding */
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--base-200);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-focus);
+}
+
+/* Base layout */
+.container {
+    max-width: 36rem !important;
+    margin-bottom: 1rem; /* Reduce bottom margin */
+    flex: 1;
+    padding: 1rem;
+}
+
+/* Button active states */
+.percentage-btn.btn-active {
+    background-color: var(--primary);
+    color: var(--primary-content);
+    border-color: var(--primary);
+}
+
+/* Keep only necessary transitions */
+#faqAccordion {
+    transition: all 0.3s ease-in-out;
+}
+
+#faqAccordion.hidden {
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+/* Stats customization */
+.stats {
+    background: var(--base-300) !important;
+}
+
+.stat {
+    min-width: 0; /* Allow text to wrap */
+}
+
+.stat-value {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    hyphens: auto !important;
+    color: var(--base-content) !important;
+}
+
+.stat-title {
+    color: var(--base-content) !important;
+    opacity: 0.7;
+}
+
+.stat-value.text-error {
+    color: var(--error) !important;
+}
+
+.stat-value.text-success {
+    color: var(--success) !important;
+}
+
+/* Remove hover animations */
+.stat:hover {
+    transform: none;
+}
+
+.stat:hover .stat-value {
+    transform: none;
+}
+
+/* Input focus effects */
+.input:focus {
+    box-shadow: 0 0 0 2px var(--primary-focus);
+}
+
+/* Button hover effects */
+.btn {
+    transition: transform 0.2s ease;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+/* Footer spacing fix */
+body {
+    padding-bottom: 100px;
+}
+
+/* RTL specific adjustments */
+.input-group > :first-child:not(:last-child) {
+    border-start-end-radius: var(--rounded-btn, 0.5rem);
+    border-end-end-radius: var(--rounded-btn, 0.5rem);
+    border-start-start-radius: 0;
+    border-end-start-radius: 0;
+}
+
+.input-group > :last-child:not(:first-child) {
+    border-start-start-radius: var(--rounded-btn, 0.5rem);
+    border-end-start-radius: var(--rounded-btn, 0.5rem);
+    border-start-end-radius: 0;
+    border-end-end-radius: 0;
+}
+
+/* Modal customizations */
+.modal-box {
+    max-width: 24rem !important;
+}
+
+.modal .badge {
+    padding: 1rem;
+    font-size: 0.875rem;
+    gap: 0.5rem;
+    background: var(--base-200);
+    border: 1px solid var(--base-300);
+}
+
+.modal .tooltip {
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    line-height: 1.25;
+    max-width: 16rem;
+    white-space: pre-line;
+}
+
+.modal .btn-ghost {
+    min-height: 2rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+/* Container width limit */
+.container {
+    max-width: 36rem !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .modal-box {
+        max-width: 20rem !important;
+        margin: 1rem;
+    }
+}
+
+/* Mobile optimizations */
+@media (max-width: 640px) {
+    .stats-horizontal {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .stat {
+        padding: 0.75rem;
+    }
+
+    .card-body {
+        padding: 1rem;
+    }
+
+    .modal-box {
+        margin: 1rem;
+        padding: 1.25rem;
+    }
+
+    .btn {
+        height: 2.75rem;
+        min-height: 2.75rem;
+        font-size: 0.875rem;
+    }
+}
+
+/* Fix mobile stats display */
+@media (max-width: 640px) {
+    .stats.stats-horizontal {
+        grid-template-columns: 1fr !important;
+    }
+
+    .stat {
+        padding: 0.75rem !important;
+    }
+
+    .stat-value {
+        font-size: 0.875rem !important;
+    }
+}
+
+/* Footer adjustments */
+.footer {
+    background: var(--base-300);
+    border-top: 1px solid var(--base-content-secondary);
+    padding: 1rem;
+    margin-top: 1rem; /* Reduce top margin */
+}
