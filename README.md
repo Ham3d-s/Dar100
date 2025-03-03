@@ -1,102 +1,266 @@
-# محاسبه درصد - Dar100
+<div dir="rtl">
 
-[![Screenshot](1738132282141.png)](https://dar100.netlify.app)
+<div align="center">
 
-## توضیحات
+# محاسبه درصد | Dar100
 
-این برنامه یک ماشین حساب ساده و کاربردی برای محاسبه درصد از مبلغ است. می‌توانید به راحتی مبلغ مورد نظر و درصد آن را وارد کنید تا مبلغ نهایی پس از اعمال درصد (مانند تخفیف یا مالیات) را مشاهده کنید.  این برنامه دارای ویژگی‌هایی مانند تاریخچه محاسبات، تبدیل عدد به حروف، حالت شب/روز و تنظیمات دیگر است.
+<div align="center">
+  
+[![نمایی از برنامه](1740989525626.jpg)](https://dar100.netlify.app)
 
-## ویژگی‌ها
-
-*   محاسبه سریع و آسان درصد از مبلغ
-*   نمایش مبلغ به حروف
-*   تاریخچه محاسبات (تا ۵ محاسبه اخیر)
-*   قابلیت کپی نتیجه
-*   حالت شب/روز (Dark/Light Mode)
-*   دکمه‌های میانبر برای درصدهای رایج (10%、20%、30%、50%)
-*   بخش راهنما و سوالات متداول
-*   ذخیره خودکار محاسبات (قابل تنظیم)
-*   تبدیل اعداد به حروف فارسی
-
-## دموی آنلاین
-
-[https://dar100.netlify.app](https://dar100.netlify.app)
-
-## نحوه استفاده
-
-1.  مبلغ مورد نظر را در فیلد "مبلغ" وارد کنید.
-2.  درصد مورد نظر را در فیلد "درصد مبلغ" وارد کنید یا از دکمه‌های میانبر استفاده کنید.
-3.  روی دکمه "حساب" کلیک کنید.
-4.  نتیجه در بخش "نتیجه" نمایش داده می‌شود.
-
-## کلیدهای میانبر
-
-*   `Ctrl + Enter`: محاسبه
-*   `Esc`: پاک کردن فرم
-*   `Alt + 1`: 10%
-*   `Alt + 2`: 20%
-*   `Alt + 3`: 30%
-*   `Alt + 5`: 50%
-
-## تنظیمات
-
-با کلیک بر روی آیکون چرخ‌دنده در بالای صفحه، می‌توانید به بخش تنظیمات دسترسی داشته باشید. در این بخش می‌توانید حالت شب/روز، ذخیره خودکار و موارد دیگر را تنظیم کنید.
-
-## راهنما و سوالات متداول
-
-برای مشاهده راهنمای برنامه و پاسخ به سوالات متداول، روی دکمه "راهنما و سوالات متداول" در پایین صفحه کلیک کنید.
-
-
+![نسخه](https://img.shields.io/badge/نسخه-2.0.0-blue)
+![وضعیت](https://img.shields.io/badge/وضعیت-فعال-success)
 [![توییتر](https://img.shields.io/twitter/follow/Ham3ds_?style=social)](https://twitter.com/Ham3ds_)
+
+</div>
+
+## 📝 درباره برنامه
+
+<div align="right">
+یک ابزار قدرتمند و کاربرپسند برای محاسبات درصدی که به شما امکان می‌دهد به سرعت و با دقت:
+
+* درصدی از یک مبلغ را محاسبه کنید
+* تخفیف‌ها و مالیات‌ها را اعمال کنید
+* نتایج را به حروف مشاهده کنید
+* و محاسبات خود را مدیریت کنید
+</div>
+
+## 🗂️ ساختار پروژه
+
+<div align="left">
+<pre dir="ltr">
+Dar100/
+├── 📄 index.html
+├── 📦 package.json
+├── 📦 package-lock.json
+├── 🎨 tailwind.config.js
+├── 📁 css/
+│   └── styles.css
+├── 📁 js/
+│   └── script.js
+├── 📁 src/
+│   ├── 📁 components/
+│   │   ├── calculator.js
+│   │   ├── history.js
+│   │   ├── settings.js
+│   │   └── themes.js
+│   ├── 📁 styles/
+│   │   └── main.css
+│   └── 📁 utils/
+│       ├── formatter.js
+│       └── numberToWords.js
+└── 📸 1740989525626.jpg
+</pre>
+</div>
+
+## ⭐ ویژگی‌های کلیدی
+
+<div align="right">
+
+### 🔸 محاسبات پیشرفته
+* ✨ محاسبه آنی و دقیق درصد از مبلغ
+* 📝 تبدیل خودکار اعداد به حروف فارسی
+* 🎯 دقت بالا در محاسبات
+* 💾 ذخیره‌سازی هوشمند نتایج
+
+### 🔸 رابط کاربری هوشمند
+* 🌓 حالت شب و روز
+* ⌨️ کلیدهای میانبر کاربردی
+* 📱 طراحی واکنش‌گرا
+* ⚡ عملکرد سریع و روان
+
+### 🔸 امکانات پیشرفته
+* 📊 تاریخچه محاسبات (۵ مورد اخیر)
+* 📋 کپی سریع نتایج
+* ⚙️ تنظیمات شخصی‌سازی
+* 💡 راهنمای جامع کاربری
+</div>
+
+## 💻 پیش‌نیازهای نصب
+
+<div align="right">
+
+* Node.js نسخه 14 یا بالاتر
+* npm نسخه 6 یا بالاتر
+
+</div>
+
+## 🚀 نصب و راه‌اندازی
+
+</div>
+
+<div dir="ltr">
+
+```bash
+# Clone the repository
+git clone https://github.com/Ham3ds/dar100.git
+
+# Navigate to project directory
+cd dar100
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+</div>
+
+<div dir="rtl">
+
+## ⌨️ کلیدهای میانبر
+
+<div align="left">
+
+| کلید | عملکرد |
+|------|---------|
+| `Ctrl + Enter` | محاسبه |
+| `Esc` | پاک کردن فرم |
+| `Alt + 1` | محاسبه ۱۰٪ |
+| `Alt + 2` | محاسبه ۲۰٪ |
+| `Alt + 3` | محاسبه ۳۰٪ |
+| `Alt + 5` | محاسبه ۵۰٪ |
+
+</div>
+
+## 🔧 تنظیمات
+
+<div align="right">
+تنظیمات برنامه از طریق آیکون چرخ‌دنده در نوار بالایی قابل دسترسی است:
+
+* 🌓 تغییر حالت نمایش (شب/روز)
+* 💾 مدیریت ذخیره‌سازی خودکار
+* 🎨 شخصی‌سازی رابط کاربری
+</div>
+
+## 🌐 دسترسی آنلاین
+
+<div align="right">
+برنامه در آدرس زیر به صورت آنلاین در دسترس است:  
+<div dir="ltr">
+<div align="center">
+
+[Dar100.app](https://dar100.netlify.app)
+
+</div>
+</div>
+
+</div>
+
+<div dir="ltr">
 
 ---
 
-# Percent Calculator - Dar100
+# Dar100 - Percentage Calculator
 
-## Description
+<div align="center">
 
-This application is a simple and practical calculator for calculating the percentage of an amount. You can easily enter the desired amount and its percentage to see the final amount after applying the percentage (such as a discount or tax). This application has features such as calculation history, number to words conversion, dark/light mode, and other settings.
+![Version](https://img.shields.io/badge/version-2.0.0-blue)
+![Status](https://img.shields.io/badge/status-active-success)
+[![Twitter](https://img.shields.io/twitter/follow/Ham3ds_?style=social)](https://twitter.com/Ham3ds_)
 
-## Features
+</div>
 
-*   Quick and easy calculation of percentage from an amount
-*   Display amount in words
-*   Calculation history (up to the last 5 calculations)
-*   Copy result capability
-*   Dark/Light Mode
-*   Shortcut buttons for common percentages (10%, 20%, 30%, 50%)
-*   Help and FAQ section
-*   Automatic saving of calculations (configurable)
-*   Persian number to words conversion
+## 📝 About
 
-## Online Demo
+A powerful and user-friendly percentage calculation tool that enables you to:
 
-[https://dar100.netlify.app](https://dar100.netlify.app)
+- Calculate percentages of amounts instantly
+- Apply discounts and taxes
+- View results in words
+- Manage your calculations efficiently
 
-## How to Use
+## 🗂️ Project Structure
 
-1.  Enter the desired amount in the "Amount" field.
-2.  Enter the desired percentage in the "Percentage of Amount" field or use the shortcut buttons.
-3.  Click the "Calculate" button.
-4.  The result is displayed in the "Result" section.
+```
+dar100/
+├── 📄 index.html
+├── 📦 package.json
+├── 📦 package-lock.json
+├── 🎨 tailwind.config.js
+├── 📁 css/
+│   └── styles.css
+├── 📁 js/
+│   └── script.js
+├── 📁 src/
+│   ├── 📁 components/
+│   │   ├── calculator.js
+│   │   ├── history.js
+│   │   ├── settings.js
+│   │   └── themes.js
+│   ├── 📁 styles/
+│   │   └── main.css
+│   └── 📁 utils/
+│       ├── formatter.js
+│       └── numberToWords.js
+└── 📸 1740989525626.jpg
+```
 
-## Keyboard Shortcuts
+## ⭐ Key Features
 
-*   `Ctrl + Enter`: Calculate
-*   `Esc`: Clear Form
-*   `Alt + 1`: 10%
-*   `Alt + 2`: 20%
-*   `Alt + 3`: 30%
-*   `Alt + 5`: 50%
+### 🔸 Advanced Calculations
+- ✨ Instant and accurate percentage calculations
+- 📝 Automatic number to Persian words conversion
+- 🎯 High precision computations
+- 💾 Smart result storage
 
-## Settings
+### 🔸 Smart UI
+- 🌓 Dark/Light mode
+- ⌨️ Practical keyboard shortcuts
+- 📱 Responsive design
+- ⚡ Fast and smooth performance
 
-By clicking on the gear icon at the top of the page, you can access the settings section. Here you can set the dark/light mode, auto-save, and more.
+### 🔸 Pro Features
+- 📊 Calculation history (last 5)
+- 📋 Quick result copying
+- ⚙️ Customization settings
+- 💡 Comprehensive user guide
 
-## Help and FAQ
+## 💻 Prerequisites
 
-To view the application's help and frequently asked questions, click the "Help and FAQ" button at the bottom of the page.
+- Node.js version 14 or higher
+- npm version 6 or higher
 
+## 🚀 Installation & Usage
 
+```bash
+# Clone the repository
+git clone https://github.com/Ham3ds/dar100.git
 
-[![توییتر](https://img.shields.io/twitter/follow/Ham3ds_?style=social)](https://twitter.com/Ham3ds_)
+# Navigate to project directory
+cd dar100
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## ⌨️ Keyboard Shortcuts
+
+| Key | Action |
+|-----|--------|
+| `Ctrl + Enter` | Calculate |
+| `Esc` | Clear Form |
+| `Alt + 1` | Calculate 10% |
+| `Alt + 2` | Calculate 20% |
+| `Alt + 3` | Calculate 30% |
+| `Alt + 5` | Calculate 50% |
+
+## 🔧 Settings
+Access application settings via the gear icon in the top bar:
+- 🌓 Toggle display mode (Dark/Light)
+- 💾 Manage auto-save
+- 🔔 Notification settings
+- 🎨 UI customization
+
+## 🌐 Online Access
+
+The application is available online at:  
+<div align="center">
+
+[Dar100.app](https://dar100.netlify.app)
+
+</div>
